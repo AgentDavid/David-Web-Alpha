@@ -51,7 +51,7 @@ function versionWebp() {
 function watchArchivos() {
     watch( paths.js, javascript );
     watch( paths.css, css );
-    watch( paths.imagenes, imagenes );
+    // watch( paths.imagenes, imagenes );
     watch( paths.imagenes, versionWebp );
 }
 
